@@ -1,0 +1,15 @@
+body{
+    background:linear-gradient(rgb(241, 255, 160),rgb(158, 255, 255)) ;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 4px 100px rgb(81, 0, 255);}
+    to{box-shadow: 4px 4px 100px rgb(255, 0, 0);}
+}
